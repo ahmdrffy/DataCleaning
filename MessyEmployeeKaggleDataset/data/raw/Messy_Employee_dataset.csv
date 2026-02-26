@@ -1,0 +1,12 @@
+Employee_ID,First_Name,Last_Name,Age,Department_Region,Status,Join_Date,Salary,Email,Phone,Performance_Score,Remote_Work
+1,John,Doe,,North,Active,2021-01-15,50000,johndoe@example.com,1234567890,Excellent,Yes
+2,Jane,Smith,30,South,Inactive,2020-05-10,60000,janesmith@example.com,9876543210,Good,No
+3,Bob,Brown,45,East,Active,2019-07-21,45000,bobbrown@example.com,1357902468,Poor,Yes
+4,Alice,White,,West,Active,2022-03-12,55000,alicewhite@example.com,2468013579,Average,No
+5,Charlie,Johnson,39,Central,Inactive,2020-11-30,,charliejohnson@example.com,-9876543210,Good,Yes
+6,,Taylor,29,East,Active,2021-04-18,62000,taylort@example.com,12345abcde,Excellent,No
+7,Emily,Jones,27,West,Active,2018-12-24,,emilyjones@example.com,5432167890,Poor,Yes
+8,Michael,Miller,,Central,Inactive,2023-02-16,47000,michaelm@example.com,1357924680,Average,No
+9,Mary,Davis,35,South,Active,2017-09-15,52000,marydavis@example.com,9876543210,Good,Yes
+10,David,Garcia,41,North,Inactive,2022-06-20,0,garciad@example.com,1234567,,No
+... (more records)...
