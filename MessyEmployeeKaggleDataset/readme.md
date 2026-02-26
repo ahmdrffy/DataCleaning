@@ -1,4 +1,4 @@
-<h1>Messy Employee Dataset Cleaning Portfolio</h1>
+# Messy Employee Dataset Cleaning Portfolio
 
 ## Dataset Information
 The Messy Employee dataset contains information about employees that have inconsistent formatting, missing values, and other data quality issues. This dataset aims to simulate real-world scenarios where data cleaning is necessary.
@@ -13,19 +13,19 @@ The Messy Employee dataset contains information about employees that have incons
 You can reference this list to understand the cleaned columns.
 
 <ul>
-<li>**Employee ID** . Unique identifier for each employee. Integer.
-<li>**First Name** . Employee first name. String.
-<li>**Last Name**. Employee last name. String.
-<li>**Age**. Employee age in years. Integer.
-<li>**Department**. Employee department. String.
-<li>**Region**. Employee geographic region. String.
-<li>**Salary**. Employee salary amount. Float.
-<li>**Join Date**. The date the employee started. Date.
-<li>**Email**. Employee email address. String.
-<li>**Phone**. Employee phone number. String.
-<li>**Performance Score**. 1 is Poor. 2 is Average. 3 is Good. 4 is Excellent. Integer.
-<li>**Remote Work**. 0 is No. 1 is Yes. Integer.
-<li>**Status**. Employee status kept as text for readability. String.
+<li><b>Employee ID</b>. Unique identifier for each employee. Integer.</li>
+<li><b>First Name</b>. Employee first name. String.
+<li><b>Last Name</b>. Employee last name. String.
+<li><b>Age</b>. Employee age in years. Integer.
+<li><b>Department</b>. Employee department. String.
+<li><b>Region</b>. Employee geographic region. String.
+<li><b>Salary</b>. Employee salary amount. Float.
+<li><b>Join Date</b>. The date the employee started. Date.
+<li><b>Email</b>. Employee email address. String.
+<li><b>Phone</b>. Employee phone number. String.
+<li><b>Performance Score</b>. 1 is Poor. 2 is Average. 3 is Good. 4 is Excellent. Integer.
+<li><b>Remote Work</b>. 0 is No. 1 is Yes. Integer.
+<li><b>Status</b>. Employee status kept as text for readability. String.
 </ul>
 
 ## Data Transformations
