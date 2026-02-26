@@ -1,8 +1,7 @@
 <h1>Messy Employee Dataset Cleaning Portfolio</h1>
 
-<p>This repository contains a data cleaning portfolio project. It demonstrates my data preparation skills required for a data analyst role. You can use this cleaned dataset for immediate analysis. I processed the raw data using excel, python and pandas library.</p>
-
-<h2>Dataset Information</h2>
+## Dataset Information
+The Messy Employee dataset contains information about employees that have inconsistent formatting, missing values, and other data quality issues. This dataset aims to simulate real-world scenarios where data cleaning is necessary.
 
 <ul>
 <li><b>Source:</b> Kaggle Messy Employee Dataset</li>
@@ -10,23 +9,30 @@
 <li><b>Columns:</b> 13</li>
 </ul>
 
-<h2>Data Transformations</h2>
+## Data Dictionary
+You can reference this list to understand the cleaned columns.
 
 <ul>
-<li><b>Department and Region:</b> I split the compound column into two separate columns.</li>
-<li><b>Salary:</b> I removed corrupted formula text. I formatted the column to standard numbers.</li>
-<li><b>Phone Numbers:</b> I converted negative integers into a standard phone number format.</li>
-<li><b>Age:</b> I converted decimal values into whole numbers. I filled missing values with the median age.</li>
-<li><b>Join Date:</b> I standardized all dates to the YYYY-MM-DD format.</li>
-<li><b>Performance Score:</b> I converted text ratings into a numerical scale.</li>
-<li><b>Remote Work:</b> I converted text values into a binary format.</li>
-<li><b>File Optimization:</b> I deleted one million blank rows. This reduced the file size from 104MB to 100KB.</li>
+<li>**Employee ID** . Unique identifier for each employee. Integer.
+<li>**First Name** . Employee first name. String.
+<li>**Last Name**. Employee last name. String.
+<li>**Age**. Employee age in years. Integer.
+<li>**Department**. Employee department. String.
+<li>**Region**. Employee geographic region. String.
+<li>**Salary**. Employee salary amount. Float.
+<li>**Join Date**. The date the employee started. Date.
+<li>**Email**. Employee email address. String.
+<li>**Phone**. Employee phone number. String.
+<li>**Performance Score**. 1 is Poor. 2 is Average. 3 is Good. 4 is Excellent. Integer.
+<li>**Remote Work**. 0 is No. 1 is Yes. Integer.
+<li>**Status**. Employee status kept as text for readability. String.
 </ul>
 
-<h2>Data Dictionary</h2>
+## Data Transformations
+To improve data quality, the following transformations were performed:
+1. **Standardization of Names**: Names were unified to a consistent format (e.g., proper casing).
+2. **Email Validation**: Invalid emails were corrected or removed.
+3. **Department Normalization**: Spelling variations in department names were standardized to a common set of values.
+4. **Salary Cleaning**: Missing or outlier values were handled by imputation methodologies.
+5. **Date Formatting**: Start dates were converted to a standard format (YYYY-MM-DD).
 
-<ul>
-<li><b>Performance Score Key:</b> 1 equals Poor. 2 equals Average. 3 equals Good. 4 equals Excellent.</li>
-<li><b>Remote Work Key:</b> 0 equals No. 1 equals Yes.</li>
-<li><b>Status Key:</b> Active, Inactive, or Pending. I kept these as text for immediate readability.</li>
-</ul>
