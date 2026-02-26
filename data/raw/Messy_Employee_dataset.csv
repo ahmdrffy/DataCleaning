@@ -1,0 +1,3 @@
+{"Employee_ID":1,"First_Name":"John","Last_Name":"Doe","Email":"john.doe@example.com","Phone":"123-456-7890","Hire_Date":"2021-01-15","Job_Title":"Software Engineer","Department":"Engineering"}
+{"Employee_ID":2,"First_Name":"Jane","Last_Name":"Smith","Email":"jane.smith@example.com","Phone":"987-654-3210","Hire_Date":"2020-02-20","Job_Title":"Product Manager","Department":"Product"}
+{"Employee_ID":3,"First_Name":"Eve","Last_Name":"Johnson","Email":"eve.johnson@example.com","Phone":"456-789-1230","Hire_Date":"2019-05-05","Job_Title":"UX Designer","Department":"Design"}
