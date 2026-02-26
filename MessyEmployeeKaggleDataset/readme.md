@@ -1,6 +1,6 @@
 <h1>Messy Employee Dataset Cleaning Portfolio</h1>
 
-<p>This repository contains a data cleaning portfolio project. It demonstrates the data preparation skills required for a data analyst internship. You can use this cleaned dataset for immediate analysis. I used Excel to transform the raw data.</p>
+<p>This repository contains a data cleaning portfolio project. It demonstrates my data preparation skills required for a data analyst role. You can use this cleaned dataset for immediate analysis. I processed the raw data using excel, python and pandas library.</p>
 
 <h2>Dataset Information</h2>
 
