@@ -1,38 +1,71 @@
-# Messy Employee Dataset Cleaning Portfolio
+# 🧹 Messy Employee Dataset — Data Analytics Project
 
-## Dataset Information
-The Messy Employee dataset contains information about employees that have inconsistent formatting, missing values, and other data quality issues. This dataset aims to simulate real-world scenarios where data cleaning is necessary.
+A end-to-end data analytics project using a messy HR/employee dataset. This project covers data cleaning, SQL data modeling, and exploratory analysis to answer real business questions about workforce performance and retention.
 
-<ul>
-<li><b>Source:</b> Kaggle Messy Employee Dataset</li>
-<li><b>Rows:</b> 1020</li>
-<li><b>Columns:</b> 13</li>
-</ul>
+---
 
-## Data Dictionary
-You can reference this list to understand the cleaned columns.
+## 📁 Files
 
-<ul>
-<li><b>Employee ID</b>. Unique identifier for each employee. Integer.</li>
-<li><b>First Name</b>. Employee first name. String.
-<li><b>Last Name</b>. Employee last name. String.
-<li><b>Age</b>. Employee age in years. Integer.
-<li><b>Department</b>. Employee department. String.
-<li><b>Region</b>. Employee geographic region. String.
-<li><b>Salary</b>. Employee salary amount. Float.
-<li><b>Join Date</b>. The date the employee started. Date.
-<li><b>Email</b>. Employee email address. String.
-<li><b>Phone</b>. Employee phone number. String.
-<li><b>Performance Score</b>. 1 is Poor. 2 is Average. 3 is Good. 4 is Excellent. Integer.
-<li><b>Remote Work</b>. 0 is No. 1 is Yes. Integer.
-<li><b>Status</b>. Employee status kept as text for readability. String.
-</ul>
+| File | Description |
+|---|---|
+| `Messy_Employee_dataset.csv` | Raw, uncleaned dataset |
+| `Messy_Employee_dataset_Cleaned.csv` | Cleaned dataset ready for analysis |
+| `Messy_Employee_Dataset_Cleaned.ipynb` | Python notebook for data cleaning |
+| `messy_employee - table_queries.sql` | SQL script to create and normalize tables |
+| `messy_employee - analysis_queries.sql` | SQL queries to answer business questions |
 
-## Data Transformations
-To improve data quality, the following transformations were performed:
-1. **Standardization of Names**: Names were unified to a consistent format (e.g., proper casing).
-2. **Email Validation**: Invalid emails were corrected or removed.
-3. **Department Normalization**: Spelling variations in department names were standardized to a common set of values.
-4. **Salary Cleaning**: Missing or outlier values were handled by imputation methodologies.
-5. **Date Formatting**: Start dates were converted to a standard format (YYYY-MM-DD).
+---
 
+## 🛠️ Tools Used
+
+- **Excel** — Preliminary data cleaning
+- **Python (Pandas)** — Data cleaning and transformation
+- **PostgreSQL** — Data modeling and analysis
+
+---
+
+## 🔄 Workflow
+
+### 1. Data Cleaning
+The raw dataset contained inconsistencies, formatting issues, and missing values. Cleaned using both **Excel** and **Python (Pandas)**.
+
+### 2. SQL Data Modeling
+The cleaned flat CSV was imported into PostgreSQL and normalized into 4 relational tables:
+
+- `employees` — Core employee info with `Department_ID` as foreign key
+- `departments` — Department reference table
+- `salaries` — Employee salary records
+- `performance` — Employee performance scores
+
+### 3. SQL Analysis
+Business questions answered using JOINs, CTEs, and aggregate functions across the normalized tables.
+
+---
+
+## ❓ Business Questions Answered
+
+- What is the average salary per department?
+- Which department has the most high performers?
+- What is the remote work distribution per department?
+- How many employees are Active, Pending, and Inactive per department?
+- Who are the top 10 highest paid employees?
+- Which region pays the most on average?
+- How many employees joined per year?
+
+---
+
+## 📊 Dataset Overview
+
+| Column | Description |
+|---|---|
+| Employee_ID | Unique employee identifier |
+| First_Name / Last_Name | Employee name |
+| Age | Employee age |
+| Department | Department name |
+| Region | Work region/state |
+| Status | Active, Inactive, or Pending |
+| Join_Date | Date the employee joined |
+| Salary | Annual salary |
+| Email / Phone | Contact information |
+| Performance_Score | Score from 1 (lowest) to 4 (highest) |
+| Remote_Work | 1 = Remote, 0 = On-site |
