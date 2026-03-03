@@ -13,7 +13,7 @@ A collection of end-to-end data analytics projects covering real-world datasets 
 
 An HR/employee dataset analyzed to answer business questions around workforce performance, salary distribution, and employee retention.
 
-**Tools Used:** Excel · Python (Pandas) · PostgreSQL
+**Tools Used:** Excel · Python (Pandas) · Python (Matplotlib) · Python (Seaborn) · PostgreSQL
 
 **Key Questions Answered:**
 - Which department has the highest average salary?
@@ -21,6 +21,15 @@ An HR/employee dataset analyzed to answer business questions around workforce pe
 - What is the remote work distribution per department?
 - Which region pays the most on average?
 - How has hiring activity changed year over year?
+
+**EDA Highlights:**
+- Salary is approximately normally distributed, centered around $80K–$90K
+- No significant correlation between age, salary, performance, or remote work
+- Remote and on-site employees perform nearly identically (~2.5 avg score)
+- Salary is not tied to performance — a potential long-term retention risk
+- Cloud Tech has the lowest median performance score across all departments
+
+**Status:** ✅ Data Cleaning · ✅ SQL Analysis · ✅ Exploratory Data Analysis · 🔲 Dashboard
 
 ---
 
@@ -30,6 +39,8 @@ An HR/employee dataset analyzed to answer business questions around workforce pe
 |---|---|
 | Excel | Preliminary data cleaning |
 | Python (Pandas) | Data cleaning & transformation |
+| Python (Matplotlib) | Data visualization |
+| Python (Seaborn) | Data visualization |
 | PostgreSQL | Data modeling & SQL analysis |
 | Power BI | Dashboard & visualization *(coming soon)* |
 
@@ -41,7 +52,7 @@ Every project in this repository follows the same structured workflow:
 
 1. **Data Cleaning** — Excel & Python
 2. **SQL Analysis** — PostgreSQL
-3. **Exploratory Data Analysis** — Python
+3. **Exploratory Data Analysis** — Python (Pandas, Matplotlib, Seaborn)
 4. **Visualization** — Power BI
 
 ---
