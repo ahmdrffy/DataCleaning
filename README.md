@@ -13,7 +13,7 @@ A collection of end-to-end data analytics projects covering real-world datasets 
 
 An HR/employee dataset analyzed to answer business questions around workforce performance, salary distribution, and employee retention.
 
-**Tools Used:** Excel · Python (Pandas) · Python (Matplotlib) · Python (Seaborn) · PostgreSQL
+**Tools Used:** Excel · Python (Pandas) · Python (Matplotlib) · Python (Seaborn) · PostgreSQL · Power BI
 
 **Key Questions Answered:**
 - Which department has the highest average salary?
@@ -29,7 +29,7 @@ An HR/employee dataset analyzed to answer business questions around workforce pe
 - Salary is not tied to performance — a potential long-term retention risk
 - Cloud Tech has the lowest median performance score across all departments
 
-**Status:** ✅ Data Cleaning · ✅ SQL Analysis · ✅ Exploratory Data Analysis · 🔲 Dashboard
+**Status:** ✅ Data Cleaning · ✅ SQL Analysis · ✅ Exploratory Data Analysis · ✅ Data Visualization
 
 ---
 
@@ -42,7 +42,7 @@ An HR/employee dataset analyzed to answer business questions around workforce pe
 | Python (Matplotlib) | Data visualization |
 | Python (Seaborn) | Data visualization |
 | PostgreSQL | Data modeling & SQL analysis |
-| Power BI | Dashboard & visualization *(coming soon)* |
+| Power BI | Interactive dashboard & visualization |
 
 ---
 
